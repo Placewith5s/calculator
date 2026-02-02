@@ -8,41 +8,46 @@
     <script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
 </head>
 <body>
+    <header>
+        <h1>Calculator</h1>
+    </header>
+
     <main>
-        <span id="display"></span>
+        <span id="display">0</span>
 
         <div class="calculator-content">
+            <div class="section-clears">
+            <button id="clear-last-input-btn">✖️</button>
+            <button id="clear-btn">AC</button>
+            <button class="target-btn">%</button>
+            <button class="highlight-btn target-btn">/</button>
+            </div>
+
             <div class="section-789">
-            <button class="highlight-btn target-btn">+</button>
             <button class="target-btn">7</button>
             <button class="target-btn">8</button>
             <button class="target-btn">9</button>
+            <button class="highlight-btn target-btn">*</button>
             </div>
 
             <div class="section-456">
-            <button class="highlight-btn target-btn">-</button>
             <button class="target-btn">4</button>
             <button class="target-btn">5</button>
             <button class="target-btn">6</button>
+            <button class="highlight-btn target-btn">-</button>
             </div>
 
             <div class="section-123">
-            <button class="highlight-btn target-btn">*</button>
             <button class="target-btn">1</button>
             <button class="target-btn">2</button>
             <button class="target-btn">3</button>
+            <button class="highlight-btn target-btn">+</button>
             </div>
             
             <div class="section-0-dot-equal">
-            <button class="highlight-btn target-btn">/</button>
             <button class="target-btn">0</button>
             <button class="target-btn">.</button>
-            <button class="target-btn" id="equal-sign-btn">=</button>
-            </div>
-
-            <div class="section-c-x">
-            <button class="highlight-btn" id="clear-btn">C</button>
-            <button id="clear-last-input-btn">✖️</button>
+            <button class="highlight-btn target-btn" id="equal-sign-btn">=</button>
             </div>
         </div>
     </main>
