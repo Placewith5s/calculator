@@ -1,5 +1,8 @@
 # Calculator
 
+## Usage
+[Calculator](https://placewith5s.github.io/calculator/)
+
 ## Features
 - Numbers (0-9)
 - Operators (+, -, *, /, and %)
